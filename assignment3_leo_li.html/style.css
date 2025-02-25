@@ -13,14 +13,17 @@
 */
 body {
     /* TODO: Choose a color or font family from Chapter 5 examples,
-             explain in a comment why you picked it. */
-    color: #333;
+             explain in a comment why you picked it.
+             I chose this color because I want all the texts to contrast each other */
+    color: orange ;
     font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
     /* e.g. background-color: #f5f5f5; (optional) */
   }
   
   /* Example: style your <h1> externally here */
   h1 {
+    color:coral;
     /* TODO: pick a color or text-related property
              that might compete with your inline or internal CSS. */
   }
@@ -31,11 +34,16 @@ body {
     - Footer
     - etc.
   */
-  
+  footer {
+    color: blue !important;}
   /*
     For demonstration:
     - Show which rules get overridden by your internal <style> block
     - Which might get overridden by inline styles
     - Comment your observations about the cascade and inheritance
+    In cascade, the order of priority from low to high is:
+    Inline, Internal, and External.
+    Inheritance is when you specify the font-family or color properties on the <body> element and is inherited by the child element.
+    So the value would apply to all the elements unless overridden by an internal or inline CSS. 
   */
   
