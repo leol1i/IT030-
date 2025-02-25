@@ -19,6 +19,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
     /* e.g. background-color: #f5f5f5; (optional) */
+     /* Found this in inheritance page in chapter 10 page 240 */
   }
   
   /* Example: style your <h1> externally here */
@@ -27,7 +28,7 @@ body {
     /* TODO: pick a color or text-related property
              that might compete with your inline or internal CSS. */
   }
-  
+ 
   /*
     Add more rules if desired:
     - Paragraphs (p)
@@ -45,5 +46,6 @@ body {
     Inline, Internal, and External.
     Inheritance is when you specify the font-family or color properties on the <body> element and is inherited by the child element.
     So the value would apply to all the elements unless overridden by an internal or inline CSS. 
+    This inheritance section was found in chapter 10, page 240. My PDF version of the textbook is on chpt 10 and not 12 like the instruction says.
   */
   

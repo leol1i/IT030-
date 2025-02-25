@@ -6,21 +6,22 @@
   <title>Assignment 3 - Chapter 5 Demo</title>
 
   <!--
-    TODO #1 (External CSS):
+     TODO #1 (External CSS):
       Link to your external 'style.css' file here.
       For reference, see Chapter 5 about including CSS files.
+      I found this in Chapter 10 page 235. My PDF version of the textbook is different from the instructions.
   -->
     <link href="style.css" type="text/css" rel="stylesheet">
     <!-- removed "/" at the end because it's not needed in HTML5 according to validator -->
   <!--
-    TODO #2 (Internal CSS):
+     TODO #2 (Internal CSS):
       Add an internal <style> block here with at least one rule.
       For example, you might style the <body> or <footer>.
       Refer to Chapter 5's section on using the <style> element.
   -->
-    <!-- removed "type="text/css" from end of <style> because it's not needed according to validato r-->
-    <style>
-        
+    <!-- removed "type="text/css" from end of <style> because it's not needed according to validator
+        Found this part from chapter 10 page 236 -->
+    <style> 
      body {
         font-family: Arial, Helvetica, sans-serif;
         background-color: rgb(250,250,250);}
@@ -41,25 +42,26 @@
       This is demonstrated in chapter 10 with the cascade order. 
       If the style.css has a rule for h1, it would be overidden by an internal css. 
       The internal css would also be overriden by an inline css, which has the highest specificity.
+      Found this on chapter 10, "How CSS rules cascade" page 239.
   -->
       
     <h1 style= "font-family: Courier New, Courier, monospace;
             color: green;">Welcome to My Chapter 5 Demo
     </h1>
-  <p>
-    This paragraph should demonstrate <strong>inheritance</strong>.
-    If you set a 'color' or 'font-family' on the body or a parent element,
-    it should automatically apply here, unless it's overridden.
-    <!-- fixed the <body> to "body" because it was being used an element with no close -->
-  </p>
-  <p>
-    Modify colors, fonts, text size, etc. in your external or internal CSS.
-    Observe how the CSS cascade and inheritance affect these paragraphs
-    vs. any inline-styled elements.
-  </p>
+    <p>
+        This paragraph should demonstrate <strong>inheritance</strong>.
+        If you set a 'color' or 'font-family' on the body or a parent element,
+        it should automatically apply here, unless it's overridden.
+        <!-- fixed the <body> to "body" because it was being used an element with no close -->
+    </p>
+    <p>
+        Modify colors, fonts, text size, etc. in your external or internal CSS.
+        Observe how the CSS cascade and inheritance affect these paragraphs
+        vs. any inline-styled elements.
+    </p>
 
   <!--
-    TODO #4 (Demonstrate Cascade):
+      TODO #4 (Demonstrate Cascade):
       For example, if your external CSS sets a color on <h1>,
       and your internal CSS sets a different color, see which one wins.
       Add a short comment explaining the result according to Chapter 5
@@ -67,12 +69,11 @@
       My <h1> has an external color of "coral", 
       internal of "blue", and an inline of "green" styles. As a result, 
       the inline CSS takes priority due to higher specificity in the cascade.
-
   -->
   <footer style="color: red;">Testing Footer</footer>
 
-  <footer>
-    <p>&copy; 2025 My Demo Site</p>
-  </footer>
+    <footer>
+        <p>&copy; 2025 My Demo Site</p>
+    </footer>
 </body>
 </html>
