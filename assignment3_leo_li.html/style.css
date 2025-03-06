@@ -36,7 +36,10 @@ body {
     - etc.
   */
   footer {
-    color: blue !important;}
+    color: blue !important;
+    background-color: antiquewhite;
+    padding: 1px;
+    }
   /*
     For demonstration:
     - Show which rules get overridden by your internal <style> block
