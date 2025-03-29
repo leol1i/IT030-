@@ -86,7 +86,7 @@ p {
         text-align: center;
         flex: 1;
     }
-/* Mobile Section */
+/* Tablet Section */
 @media (max-width: 768px) { 
     .container {
         display: grid;
@@ -122,3 +122,31 @@ p {
             height: 50px;
             grid-area: 4 / 1 / 5 / 2; }
 }
+/* Small Screens */
+@media (max-width: 480px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr  ;
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+    .header { 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 5px;
+        height:auto;
+        grid-area: 1 / 1 / 2 / 2;
+    }
+    .home {
+
+    }
+    .sidebar {
+
+    }
+    .footer {}
+
+}
+
+@media (max-width: 1024px)
