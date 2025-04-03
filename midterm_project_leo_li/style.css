@@ -79,7 +79,7 @@ a {
     flex: 1;
     height: auto;
     min-height: 100vh;
-    overflow: hidden;
+    overflow: scroll;
     position: relative;
 }
 .boxbg{
@@ -316,10 +316,11 @@ h1{
     padding: 20px;
     position: relative;
   }
+
   
   .gallery-collage figure {
     position: relative;
-    overflow: hidden;
+    overflow:scroll;
     transition: transform 0.3s ease;
   }
   
