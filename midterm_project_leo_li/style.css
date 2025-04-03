@@ -44,13 +44,21 @@ body {
     margin: 0;
     cursor: url(./assets/pawn-w.svg) 16 16, auto;
     } 
+<<<<<<< HEAD
 body .boxbg{
+=======
+body .bg-chessboard{
+>>>>>>> f27fbd6 (2nd draft)
     background-image: url('./images/esma-q-MCC1g6Ziw-unsplash.jpg');
     background-size: cover;
     background-position: center;
     color: white;
     padding: 20px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> f27fbd6 (2nd draft)
 a {
     cursor: url(./assets/pawn-b.svg) 16 16, pointer;
 }
@@ -82,6 +90,7 @@ a {
     overflow: hidden;
     position: relative;
 }
+<<<<<<< HEAD
 .footer { 
     font-weight: 800;
     grid-area: 3 / 1 / 4 / 5; 
@@ -91,6 +100,21 @@ a {
     padding: 20px;
     text-align: center;
     flex: 1;
+=======
+.boxbg{
+    opacity: 90%;
+    font-weight:bold;
+}
+
+footer {
+    background-color: #b69375;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+>>>>>>> f27fbd6 (2nd draft)
 }
 
 /* Small Screens 480px*/
@@ -179,6 +203,12 @@ a {
         height:auto;
         grid-area: 1 / 1 / 2 / 5;
     }
+<<<<<<< HEAD
+=======
+    .footer{
+        margin-top: 5px;
+    }
+>>>>>>> f27fbd6 (2nd draft)
 }
 
 /* Formatting History of Chess */
@@ -191,7 +221,12 @@ h1{
     text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
     font-style: italic;
     font-weight: bolder;
+<<<<<<< HEAD
     text-decoration:wavy;
+=======
+    text-decoration:underline solid;
+
+>>>>>>> f27fbd6 (2nd draft)
 }
 .historychess {
     height: auto;
@@ -284,24 +319,43 @@ h1{
 .players h2 {
     font-size: 2rem;
     margin-bottom: 10px;
+<<<<<<< HEAD
     color:#5f5fb3;
+=======
+    color:#000000;
+    text-decoration: underline;
+>>>>>>> f27fbd6 (2nd draft)
 }
 
 .players p {
     font-size: 1rem;
     line-height: 1.6;
     margin: 5px 0;
+<<<<<<< HEAD
     color: rgb(216, 60, 60);
+=======
+    color: black;
+>>>>>>> f27fbd6 (2nd draft)
     font-size: larger;
     text-align: center;
     font-weight: 800;
     font-weight: bold;
+<<<<<<< HEAD
+=======
+    font-style: italic;
+>>>>>>> f27fbd6 (2nd draft)
 }
 
 .players a {
     font-weight: bold;
+<<<<<<< HEAD
     color: rgb(54, 137, 162);
     text-decoration:underline;
+=======
+    color: blue;
+    text-decoration:underline;
+    font-family:sans-serif;
+>>>>>>> f27fbd6 (2nd draft)
 }
 /* Gallery Collage Styles */
 .gallery-collage {
