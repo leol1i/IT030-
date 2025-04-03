@@ -87,16 +87,6 @@ a {
     font-weight:bold;
 }
 
-/* .footer {
-    background-color: #b69375;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 10px;
-    position: relative;
-    width: 100%;
-    bottom: 0;
-} */
-
 /* Small Screens 480px*/
 @media (max-width: 480px) {
     .container {
@@ -391,7 +381,7 @@ h1{
     border: 2px solid #000;
     border-radius: 20px;
     padding: 15px;
-    background-color: #f4e1c1;
+    background-color: #eecf9bc0;
     box-sizing: border-box;
 }
 
@@ -410,10 +400,9 @@ h1{
     height: 100%;
 }
 
-
 .imgcontainer {
     margin-top: 20px; 
-    width: 100%;
+    width: auto;
     max-width: 900px;
     height: 50vh;           
     border: 5px solid #000;
