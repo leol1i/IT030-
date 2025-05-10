@@ -4,33 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Chess History">
-    <title> Home Page </title>
+    <title>Home Page</title>
     <link href="style.css" type="text/css" rel="stylesheet">  
-       
     <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-GDMR04QFVJ"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-    
-            gtag('config', 'G-GDMR04QFVJ');
-        </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GDMR04QFVJ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
 </head>
 <body>
     <div class="container">
-        <div class="header">
-            <div class="box"> <a href="index.html">Home</a> </div>
-            <div class="box"> <a href="players.html">Players</a> </div>
-            <div class="box"> <a href="gallery.html">Gallery</a> </div>
-            <div class="box"> <a href="movies.html">Movies</a> </div>
-        </div>
-        <div class="home">
-            <div class="box2">
+        <nav class="header">
+            <div class="box"><a href="index.html" onclick="gtag('event', 'nav_click', {event_category:'navigation', event_label:'Home'})">Home</a></div>
+            <div class="box"><a href="players.html" onclick="gtag('event', 'nav_click', {event_category:'navigation', event_label:'Players'})">Players</a></div>
+            <div class="box"><a href="gallery.html" onclick="gtag('event', 'nav_click', {event_category:'navigation', event_label:'Gallery'})">Gallery</a></div>
+            <div class="box"><a href="movies.html" onclick="gtag('event', 'nav_click', {event_category:'navigation', event_label:'Movies'})">Movies</a></div>
+            <div class="box"><a href="affiliate.html" onclick="gtag('event', 'nav_click', {event_category:'navigation', event_label:'Movies'})">Affiliate</a></div>
+            <div class="box"><a href="extrapage.html" onclick="gtag('event', 'nav_click', {event_category:'navigation', event_label:'Movies'})">Extra For Now</a></div>
+        </nav>
+
+        <main class="home">
+            <section class="box2">
                 <div class="chesspieces">
-                        <img src="./assets/king-w.svg" alt="image of a white king chess piece" class="chess-piece left-piece">
-                <h1>History of Chess</h1>
-                        <img src="./assets/queen-b.svg" alt="image of a black queen chess piece" class="chess-piece right-piece">
+                    <img src="./assets/king-w.svg" alt="image of a white king chess piece" class="chess-piece left-piece">
+                    <h1>History of Chess</h1>
+                    <img src="./assets/queen-b.svg" alt="image of a black queen chess piece" class="chess-piece right-piece">
                 </div>
                 <div class="historychess">
                     <img src="images/randy-fath-G1yhU1Ej-9A-unsplash.jpg" alt="image of a chess board">
@@ -120,18 +121,18 @@
                         
                         History of chess Magnus Carlsen
                         Current World Champion Magnus Carlsen at the Chess.com Isle of Man (2017). Photo: © Maria Emelianova/Chess.com
-                        Humans are also becoming stronger with the help of computers for analysis, research, and opening theory. Nowadays, almost every chess player uses chess engines, including current World Champion Magnus Carlsen. Carlsen has been the reigning world champion since defeating Viswanathan Anand in 2013, and has remained the highest rated player in the world for a long time. He continues his dominance, and won the first 4 tournaments he played in 2019.  He holds the record for highest rating in history at 2882 (attained in 2014), and currently holds a classical rating of 2876. Many people already consider him to be the strongest player of all time. </p>
-                            <a href="https://www.chess.com/article/view/history-of-chess"></a>
+                        Humans are also becoming stronger with the help of computers for analysis, research, and opening theory. Nowadays, almost every chess player uses chess engines, including current World Champion Magnus Carlsen. Carlsen has been the reigning world champion since defeating Viswanathan Anand in 2013, and has remained the highest rated player in the world for a long time. He continues his dominance, and won the first 4 tournaments he played in 2019.  He holds the record for highest rating in history at 2882 (attained in 2014), and currently holds a classical rating of 2876. Many people already consider him to be the strongest player of all time. </p> 
+                    <a href="https://www.chess.com/article/view/history-of-chess" target="_blank">Read more on Chess.com</a>
                 </div>
-            </div>
-        </div>
+            </section>
+        </main>
 
+        <footer class="box4">
+            Footer
+        </footer>
     </div>
-    <footer>
-        @
-    </footer>
 
-    <button onclick="changeTheme()"> Mode </button>
+    <button onclick="changeTheme()">Mode</button>
     <script src="script.js"></script>
 </body>
 </html>
