@@ -23,8 +23,8 @@
             <div class="box"><a href="players.html" onclick="gtag('event', 'nav_click', {event_category:'navigation', event_label:'Players'})">Players</a></div>
             <div class="box"><a href="gallery.html" onclick="gtag('event', 'nav_click', {event_category:'navigation', event_label:'Gallery'})">Gallery</a></div>
             <div class="box"><a href="movies.html" onclick="gtag('event', 'nav_click', {event_category:'navigation', event_label:'Movies'})">Movies</a></div>
-            <div class="box"><a href="affiliate.html" onclick="gtag('event', 'nav_click', {event_category:'navigation', event_label:'Movies'})">Affiliate</a></div>
-            <div class="box"><a href="extrapage.html" onclick="gtag('event', 'nav_click', {event_category:'navigation', event_label:'Movies'})">Extra For Now</a></div>
+            <div class="box"><a href="affiliate.html" onclick="gtag('event', 'nav_click', {event_category:'navigation', event_label:'Affiliate'})">Affiliate</a></div>
+            <div class="box"><a href="extrapage.html" onclick="gtag('event', 'nav_click', {event_category:'navigation', event_label:'Extra For Now'})">Extra For Now</a></div>
         </nav>
 
         <main class="home">
@@ -37,7 +37,6 @@
                     </div>
 
                     <div class="players-container">
-                        <!-- Player Cards -->
                         <div class="players">
                             <img src="./images/magnuscarlsen.jpg" alt="image of Magnus Carlsen">
                             <h2>Magnus Carlsen</h2>
@@ -102,12 +101,12 @@
             </header>
         </main>
 
-        <footer class="box4">
-            Footer
+        <footer>
+            @Chess.com
         </footer>
     </div>
 
-    <button onclick="changeTheme()">Mode</button>
+    <button onclick="gtag('event', 'CTR', {event_category: 'callToAction', event_label: 'Mode Toggle'}); changeTheme();">Mode</button>
     <script src="script.js"></script>
 </body>
 </html>
