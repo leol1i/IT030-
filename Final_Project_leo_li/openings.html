@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Popular Chess Openings Overview" />
+  <title>Chess Openings</title>
+  <link href="style.css" type="text/css" rel="stylesheet" />
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-GDMR04QFVJ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-GDMR04QFVJ');
+  </script>
+</head>
+<body>
+  <div class="container">
+    <nav class="header">
+      <div class="box"><a href="index.html" onclick="gtag('event', 'nav_click', {event_category:'navigation', event_label:'Home'})">Home</a></div>
+      <div class="box"><a href="openings.html" onclick="gtag('event', 'nav_click', {event_category:'navigation', event_label:'Openings'})">Openings</a></div>
+      <div class="box"><a href="players.html" onclick="gtag('event', 'nav_click', {event_category:'navigation', event_label:'Players'})">Players</a></div>
+      <div class="box"><a href="gallery.html" onclick="gtag('event', 'nav_click', {event_category:'navigation', event_label:'Gallery'})">Gallery</a></div>
+      <div class="box"><a href="movies.html" onclick="gtag('event', 'nav_click', {event_category:'navigation', event_label:'Movies'})">Movies</a></div>
+      <div class="box"><a href="affiliate.html" onclick="gtag('event', 'nav_click', {event_category:'navigation', event_label:'Affiliate'})">Affiliate</a></div>
+    </nav>
+
+    <main class="home">
+      <section class="box2">
+        <div class="chesspieces">
+          <img src="./assets/king-w.svg" alt="white king" class="chess-piece left-piece" />
+          <h1>Famous Chess Openings</h1>
+          <img src="./assets/queen-b.svg" alt="black queen" class="chess-piece right-piece" />
+        </div>
+        <div class="historychess">
+          <h2>1. Ruy Lopez</h2>
+          <p>This classical opening begins with 1.e4 e5 2.Nf3 Nc6 3.Bb5. Named after a 16th-century Spanish priest, it's known for early center control and long-term strategic plans.</p>
+          
+          <h2>2. Sicilian Defense</h2>
+          <p>The most popular response to 1.e4 is 1...c5. It creates an unbalanced position and offers counterplay for Black. Played by champions like Kasparov and Carlsen.</p>
+          
+          <h2>3. Queen's Gambit</h2>
+          <p>1.d4 d5 2.c4. A central theme in <i>The Queen's Gambit</i> series. This line aims to dominate the center and transition into a powerful middle game.</p>
+
+          <h2>4. King's Indian Defense</h2>
+          <p>Used by Fischer and Kasparov, this aggressive response to 1.d4 sees Black fianchetto the bishop and prepare a strong kingside attack.</p>
+
+          <h2>5. Caro-Kann Defense</h2>
+          <p>1.e4 c6. A solid and resilient defense often played by Karpov. Known for strong pawn structure and endgame chances.</p>
+
+          <p>Want to study more? <a href="https://www.chess.com/openings" target="_blank">Explore openings at Chess.com</a></p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      @Chess.com
+    </footer>
+  </div>
+
+  <button onclick="gtag('event', 'CTR', {event_category: 'callToAction', event_label: 'Mode Toggle'}); changeTheme();">Mode</button>
+  <script src="script.js"></script>
+</body>
+</html>

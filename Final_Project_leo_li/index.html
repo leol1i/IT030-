@@ -12,18 +12,19 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-XXXXXXXXXX');
+      gtag('config', 'G-GDMR04QFVJ');
     </script>
 </head>
 <body>
+    <div id="welcome-message"></div>
     <div class="container">
         <nav class="header">
             <div class="box"><a href="index.html" onclick="gtag('event', 'nav_click', {event_category:'navigation', event_label:'Home'})">Home</a></div>
+            <div class="box"><a href="openings.html" onclick="gtag('event', 'nav_click', {event_category:'navigation', event_label:'Openings'})">Openings</a></div>
             <div class="box"><a href="players.html" onclick="gtag('event', 'nav_click', {event_category:'navigation', event_label:'Players'})">Players</a></div>
             <div class="box"><a href="gallery.html" onclick="gtag('event', 'nav_click', {event_category:'navigation', event_label:'Gallery'})">Gallery</a></div>
             <div class="box"><a href="movies.html" onclick="gtag('event', 'nav_click', {event_category:'navigation', event_label:'Movies'})">Movies</a></div>
-            <div class="box"><a href="affiliate.html" onclick="gtag('event', 'nav_click', {event_category:'navigation', event_label:'Movies'})">Affiliate</a></div>
-            <div class="box"><a href="extrapage.html" onclick="gtag('event', 'nav_click', {event_category:'navigation', event_label:'Movies'})">Extra For Now</a></div>
+            <div class="box"><a href="affiliate.html" onclick="gtag('event', 'nav_click', {event_category:'navigation', event_label:'Affiliate'})">Affiliate</a></div>
         </nav>
 
         <main class="home">
@@ -35,7 +36,7 @@
                 </div>
                 <div class="historychess">
                     <img src="images/randy-fath-G1yhU1Ej-9A-unsplash.jpg" alt="image of a chess board">
-                    <p>Chess, as we know it today, was born out of the Indian game chaturanga before the 600s AD. The game spread throughout Asia and Europe over the coming centuries, and eventually evolved into what we know as chess around the 16th century. One of the first masters of the game was a Spanish priest named Ruy Lopez. Although he didn't invent the opening named after him, he analyzed it in a book he published in 1561. Chess theory was so primitive back then that Lopez advocated the strategy of playing with the sun in your opponent's eyes!
+                        <p>Chess, as we know it today, was born out of the Indian game chaturanga before the 600s AD. The game spread throughout Asia and Europe over the coming centuries, and eventually evolved into what we know as chess around the 16th century. One of the first masters of the game was a Spanish priest named Ruy Lopez. Although he didn't invent the opening named after him, he analyzed it in a book he published in 1561. Chess theory was so primitive back then that Lopez advocated the strategy of playing with the sun in your opponent's eyes!
 
                         History of chess Chaturanga board
                         An antique Chaturanga board and pieces
@@ -121,7 +122,7 @@
                         
                         History of chess Magnus Carlsen
                         Current World Champion Magnus Carlsen at the Chess.com Isle of Man (2017). Photo: © Maria Emelianova/Chess.com
-                        Humans are also becoming stronger with the help of computers for analysis, research, and opening theory. Nowadays, almost every chess player uses chess engines, including current World Champion Magnus Carlsen. Carlsen has been the reigning world champion since defeating Viswanathan Anand in 2013, and has remained the highest rated player in the world for a long time. He continues his dominance, and won the first 4 tournaments he played in 2019.  He holds the record for highest rating in history at 2882 (attained in 2014), and currently holds a classical rating of 2876. Many people already consider him to be the strongest player of all time. </p> 
+                        Humans are also becoming stronger with the help of computers for analysis, research, and opening theory. Nowadays, almost every chess player uses chess engines, including current World Champion Magnus Carlsen. Carlsen has been the reigning world champion since defeating Viswanathan Anand in 2013, and has remained the highest rated player in the world for a long time. He continues his dominance, and won the first 4 tournaments he played in 2019.  He holds the record for highest rating in history at 2882 (attained in 2014), and currently holds a classical rating of 2876. Many people already consider him to be the strongest player of all time. </p>
                     <a href="https://www.chess.com/article/view/history-of-chess" target="_blank">Read more on Chess.com</a>
                 </div>
             </section>
@@ -131,7 +132,8 @@
             Footer
         </footer>
     </div>
- <button onclick="gtag('event', 'CTR', {event_category: 'callToAction', event_label: 'Mode Toggle'}); changeTheme();">Mode</button>
+
+    <button onclick="gtag('event', 'CTR', {event_category: 'callToAction', event_label: 'Mode Toggle'}); changeTheme();">Mode</button>
     <script src="script.js"></script>
 </body>
 </html>

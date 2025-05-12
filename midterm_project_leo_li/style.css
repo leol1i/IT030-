@@ -201,6 +201,12 @@ h1{
     padding: 10px;
     overflow-y: auto;
 }
+.historychess {
+    height: auto;
+    max-height: calc(100vh - 200px);
+    padding: 10px;
+    overflow-y: auto;
+}
 .historychess img {
     float: left;
     width: 30%; 
