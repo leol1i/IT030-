@@ -18,6 +18,11 @@ window.onload = function () {
         userName = prompt("What is your name?");
         document.cookie = `name=${encodeURIComponent(userName)}; max-age=${60 * 60 * 24 * 7}; path=/`;
     } else {
+        const hasGreeted = getCookie("greeted");
+        if (!hasGreeted) {
+            alert(`Welcome back, ${userName}`);
+            document.cookie = `greeted=true; max-age=${60 * 60 * 24 * 7}; path=/`;
+        }
         const welcome = document.getElementById("welcome-message");
         if (welcome) {
             welcome.textContent = `Welcome back, ${userName}`;
